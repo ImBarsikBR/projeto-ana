@@ -1,0 +1,9 @@
+body {
+    background-image: url('https://www.pngkey.com/png/full/77-777771_flower-background-floral-background-png.png');
+    background-color: #800000;  /* Fallback roxo vinho se a imagem não carregar */
+    background-size: cover;  /* Faz a imagem cobrir toda a tela */
+    background-position: center;  /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat;  /* Impede a repetição da imagem */
+    height: 100vh;  /* Define a altura para cobrir toda a tela */
+    margin: 0;  /* Remove margens */
+} 

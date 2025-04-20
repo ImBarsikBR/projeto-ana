@@ -6,23 +6,10 @@
     <title>Texto para Voz</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <style>
-        body {
-            background-color: #4B002A;
-            background-image: url('https://i.imgur.com/jyFPsd4.jpg'); /* Imagem de rosas */
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            font-family: 'Playfair Display', serif;
-            color: white;
-        }
-
         .container {
-            background-color: rgba(255, 255, 255, 0.7); /* Fundo branco translúcido */
+            background-color: rgba(255, 255, 255, 0.7);
             padding: 40px;
             border-radius: 15px;
             text-align: center;
@@ -51,7 +38,6 @@
             margin-bottom: 20px;
             border: 1px solid #ccc;
             border-radius: 8px;
-            /* Desabilitar o autocompletar */
             autocomplete: off;
         }
 
@@ -85,12 +71,12 @@
 
         body::before {
             left: 10px;
-            background-image: url('https://i.imgur.com/ByHfWFP.png'); /* flor esquerda */
+            background-image: url('https://i.imgur.com/ByHfWFP.png');
         }
 
         body::after {
             right: 10px;
-            background-image: url('https://i.imgur.com/ByHfWFP.png'); /* flor direita */
+            background-image: url('https://i.imgur.com/ByHfWFP.png');
         }
     </style>
 </head>
